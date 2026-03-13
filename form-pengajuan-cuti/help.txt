@@ -1,0 +1,24 @@
+Description:
+  Install the Breeze controllers and resources
+
+Usage:
+  breeze:install [options] [--] <stack>
+
+Arguments:
+  stack                      The development stack that should be installed (blade,livewire,livewire-functional,react,vue,api)
+
+Options:
+      --dark                 Indicate that dark mode support should be installed
+      --pest                 Indicate that Pest should be installed
+      --ssr                  Indicates if Inertia SSR support should be installed
+      --typescript           Indicates if TypeScript is preferred for the Inertia stack
+      --eslint               Indicates if ESLint with Prettier should be installed
+      --composer[=COMPOSER]  Absolute path to the Composer binary which should be used to install packages [default: "global"]
+  -h, --help                 Display help for the given command. When no command is given display help for the list command
+      --silent               Do not output any message
+  -q, --quiet                Only errors are displayed. All other output is suppressed
+  -V, --version              Display this application version
+      --ansi|--no-ansi       Force (or disable --no-ansi) ANSI output
+  -n, --no-interaction       Do not ask any interactive question
+      --env[=ENV]            The environment the command should run under
+  -v|vv|vvv, --verbose       Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
